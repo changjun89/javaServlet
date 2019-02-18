@@ -24,7 +24,7 @@ public class HelloServlet extends HttpServlet {
         resp.getWriter().println("<html>");
         resp.getWriter().println("<head>");
         resp.getWriter().println("<body>");
-        resp.getWriter().println("<h1>Hello Servlet "+bean.getName()+"</h1>");
+        resp.getWriter().println("<h1>Hello Servlet " + bean.getName() + "</h1>");
         resp.getWriter().println("</body>");
         resp.getWriter().println("</head>");
         resp.getWriter().println("</html>");
