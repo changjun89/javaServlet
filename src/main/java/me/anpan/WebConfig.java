@@ -14,4 +14,6 @@ public class WebConfig implements WebMvcConfigurer {
     public void configureViewResolvers(ViewResolverRegistry registry) {
         registry.jsp("/WEB-INF/",".jsp");
     }
+
+
 }

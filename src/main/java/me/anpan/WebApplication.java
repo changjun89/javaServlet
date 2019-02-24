@@ -17,7 +17,7 @@ public class WebApplication implements WebApplicationInitializer {
         context.refresh();
 
         DispatcherServlet servlet = new DispatcherServlet(context);
-        ServletRegistration.Dynamic app = servletContext.addServlet("DispatcherServlet",servlet);
+        ServletRegistration.Dynamic app = servletContext.addServlet("DispatcherServlet", servlet);
         app.addMapping("/app/*");
     }
 }
